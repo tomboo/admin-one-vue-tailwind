@@ -20,6 +20,11 @@ export default [
       to: '/dashboard',
       icon: mdiDesktopMac,
       label: 'Dashboard'
+    },
+    {
+      to: '/myDashboard',
+      icon: mdiDesktopMac,
+      label: 'myDashboard'
     }
   ],
   'Examples',

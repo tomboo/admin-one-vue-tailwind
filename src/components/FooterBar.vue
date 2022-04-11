@@ -18,6 +18,7 @@ const isFooterBarVisible = computed(() => !store.state.isFullScreen)
   >
     <level>
       <div class="text-center md:text-left">
+        <!--
         <b>&copy; {{ year }}, <a
           href="https://justboil.me/"
           target="_blank"
@@ -27,11 +28,15 @@ const isFooterBarVisible = computed(() => !store.state.isFullScreen)
           target="_blank"
           class="text-blue-600"
         >Premium version</a>
+        -->
+        - FooterBar -
       </div>
       <div class="md:py-2">
+        <!--
         <a href="https://justboil.me">
           <jb-logo class="w-auto h-8 md:h-6" />
         </a>
+        -->
       </div>
     </level>
   </footer>
